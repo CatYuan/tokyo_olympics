@@ -1,5 +1,5 @@
 {
-  "Countries": {
+  "Country": {
     "country_name": {
       "string": ["AF|Afghanistan", "AL|Albania"]
     }
