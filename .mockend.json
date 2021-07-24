@@ -2,13 +2,13 @@
   "Country": {
     "country_name": {
       "string": ["AF|Afghanistan", "AL|Albania"]
+    },
+    "gold": {
+      "belongsTo": "Gold"
     }
   },
   "Gold": {
-    "count": { "int": { "min": 0, "max": 700 } },
-    "country": {
-      "belongsTo": "Countries"
-    }
+    "count": { "int": { "min": 0, "max": 700 } }
   },
   "Silver": {
     "count": { "int": { "min": 0, "max": 700 } }
