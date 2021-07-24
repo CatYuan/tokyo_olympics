@@ -2,19 +2,13 @@
   "Countries": {
     "name": {
       "string": ["AF|Afghanistan", "AL|Albania"]
-    },
-    "gold_medals": {
-      "belongsTo": "Gold"
-    },
-    "silver_medals": {
-      "belongsTo": "Silver"
-    },
-    "bronze_medals": {
-      "belongsTo": "Bronze"
     }
   },
   "Gold": {
-    "count": { "int": { "min": 0, "max": 700 } }
+    "count": { "int": { "min": 0, "max": 700 } },
+    "country": {
+      "belongsTo": "Countries"
+    }
   },
   "Silver": {
     "count": { "int": { "min": 0, "max": 700 } }
