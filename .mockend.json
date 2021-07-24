@@ -1,15 +1,25 @@
 {
   "Countries": {
-    "name": { "string": {} }
+    "name": {
+      "string": ["AF|Afghanistan", "AL|Albania"]
     },
-    "gold": {
-      "int": { "min": 0, "max": 700 }
+    "gold_medals": {
+      "belongsTo": "Gold"
     },
-    "silver": {
-      "int": { "min": 0, "max": 700 }
+    "silver_medals": {
+      "belongsTo": "Silver"
     },
-    "bronze": {
-      "int": { "min": 0, "max": 700 }
+    "bronze_medals": {
+      "belongsTo": "Bronze"
     }
+  },
+  "Gold": {
+    "count": { "int": { "min": 0, "max": 700 } }
+  },
+  "Silver": {
+    "count": { "int": { "min": 0, "max": 700 } }
+  },
+  "Bronze": {
+    "count": { "int": { "min": 0, "max": 700 } }
   }
 }
