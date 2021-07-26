@@ -1,6 +1,11 @@
-# Getting Started with Create React App
+# 2020 Tokyo Olympics
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+- [Available Scripts](#Available-Scripts)
+- [Api Mocking w/ Mockend](#Api-Mocking-w/-Mockend)
+- [Material UI Design Components](#Material-UI-Design-Components)
+- [Learn More About Create React App](#Learn-More-About-Create-React-App)
 
 ## Available Scripts
 
@@ -39,32 +44,26 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Api Mocking w/ Mockend
+
+The api was mocked using [Mockend](https://mockend.com/).
+
+Available endpoints:
+
+https://mockend.com/catyuan/tokyo_olympics/country/:id?
+https://mockend.com/catyuan/tokyo_olympics/gold/:id?
+https://mockend.com/catyuan/tokyo_olympics/silver/:id?
+https://mockend.com/catyuan/tokyo_olympics/bronze/:id?
+https://mockend.com/catyuan/tokyo_olympics/athlete/:id?
+
+More in-depth info on these endpoints can be found at [`./.mockend.json`](./.mockend.json).
+
+## Material UI Design Components
+
+[Material UI](https://material-ui.com/) design components were used to speed up front end development.
+
+## Learn More About Create React App
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
