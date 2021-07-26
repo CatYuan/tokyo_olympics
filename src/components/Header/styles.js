@@ -16,4 +16,14 @@ export const useStyles = makeStyles((theme) => ({
     width: "150px",
     padding: "10px",
   },
+  toolbar: {
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "space-between",
+  },
+  div: {
+    display: "flex",
+    flexDirection: "row",
+    alignItems: "center",
+  },
 }));

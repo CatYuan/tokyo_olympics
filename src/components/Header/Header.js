@@ -14,21 +14,29 @@ const Header = () => {
   return (
     <div className={classes.root}>
       <AppBar style={{ background: "#2E3B55" }} position="static">
-        <Toolbar>
-          <Link to="/">
-            <img src="olympic_vector.png" alt="logo" className={classes.logo} />
-          </Link>
-          <Link to="/" style={{ textDecoration: "none" }}>
-            <Typography variant="h6" className={classes.title}>
-              2020 Tokyo Olympics
-            </Typography>
-          </Link>
-          <Link to="/countries" style={{ textDecoration: "none" }}>
-            <Button className={classes.button}>Countries</Button>
-          </Link>
-          <Link to="/events" style={{ textDecoration: "none" }}>
-            <Button className={classes.button}>Events</Button>
-          </Link>
+        <Toolbar className={classes.toolbar}>
+          <div className={classes.div}>
+            <Link to="/">
+              <img
+                src="olympic_vector.png"
+                alt="logo"
+                className={classes.logo}
+              />
+            </Link>
+            <Link to="/" style={{ textDecoration: "none" }}>
+              <Typography variant="h6" className={classes.title}>
+                2020 Tokyo Olympics
+              </Typography>
+            </Link>
+          </div>
+          <div>
+            <Link to="/countries" style={{ textDecoration: "none" }}>
+              <Button className={classes.button}>Countries</Button>
+            </Link>
+            <Link to="/events" style={{ textDecoration: "none" }}>
+              <Button className={classes.button}>Events</Button>
+            </Link>
+          </div>
         </Toolbar>
       </AppBar>
     </div>
