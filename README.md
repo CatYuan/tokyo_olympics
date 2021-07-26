@@ -51,9 +51,13 @@ The api was mocked using [Mockend](https://mockend.com/).
 Available endpoints:
 
 https://mockend.com/catyuan/tokyo_olympics/country/:id?
+
 https://mockend.com/catyuan/tokyo_olympics/gold/:id?
+
 https://mockend.com/catyuan/tokyo_olympics/silver/:id?
+
 https://mockend.com/catyuan/tokyo_olympics/bronze/:id?
+
 https://mockend.com/catyuan/tokyo_olympics/athlete/:id?
 
 More in-depth info on these endpoints can be found at [`./.mockend.json`](./.mockend.json).
