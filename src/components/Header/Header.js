@@ -6,13 +6,14 @@ import Button from "@material-ui/core/Button";
 import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
 import { useStyles } from "./styles";
+import {Link, withRouter} from "react-router-dom";
 
 const Header = () => {
   const classes = useStyles();
 
   return (
     <div className={classes.root}>
-      <AppBar position="static">
+      <AppBar style={{ background: '#2E3B55' }} position="static">
         <Toolbar>
           <IconButton
             edge="start"
@@ -22,10 +23,12 @@ const Header = () => {
           >
             <MenuIcon />
           </IconButton>
+          <Link to="/"><img id="logo" src="olympic_vector.png" alt="logo" className={classes.logo} /></Link>
           <Typography variant="h6" className={classes.title}>
-            News
+            2020 Tokyo Olympics
           </Typography>
-          <Button color="inherit">Login</Button>
+          <Link to="/countries" style={{ textDecoration: 'none' }}><Button color="#fff">Countries</Button></Link>
+          <Link to="/events" style={{ textDecoration: 'none' }}><Button>Events</Button></Link>
         </Toolbar>
       </AppBar>
     </div>
